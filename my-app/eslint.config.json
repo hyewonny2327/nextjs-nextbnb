@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "next/core-web-vitals",
+    "plugin:react/jsx-runtime"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "warn",
+    "react/display-name": "warn",
+    "react/react-in-jsx-scope": "off"
+  }
+}
